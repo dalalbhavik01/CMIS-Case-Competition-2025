@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+bin/
+lib/
+lib64/
+*.sqlite3
+*.db
+cmis.db
+
+# Environments
+.env
+.env.local
+
+# Docker
+db_data/
+
+# Node Server
+node_modules/
+npm-debug.log
+yarn-error.log
+frontend/build_log.txt
+
+# Next.js
+.next/
+out/
+build/
+
+# OS Files
+.DS_Store
+*.log
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Test/Generated files
+*resume.txt
+*resume.pdf
+demo_resume.pdf
+test_resume.pdf
+
+# Do not ignore scripts directory and its contents
+!scripts/
+!docs/
